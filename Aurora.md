@@ -1,3 +1,8 @@
-## Follow ups
-### 1. Web Servers
-Fanout on read(pull model) or Fanout on write(push model) can be selected depending on actua.
+## Aurora MySQL configuration parameters
+### 1. cluster-level parameters
+Apply for the whole cluster
+### 2. instance-level parameters
+Apply to a specific DB instance in the cluster 
+max_connections = the total connection limit
+max_user_connections = the per user limit
+
