@@ -9,4 +9,8 @@ Can also use parellel scan when
 2. The table's provisioned read throughput is not being fully used. 
 3. Sequential Scan operations are too slow. 
 4. Need wisely choosing TotalSegments, reduce the value for TotalSegments if the Scan requests consume more provisioned throughput than you want to use.
-
+## real-time capture changes
+### Kinesis Data Streams
+Kinesis Data Streams gives you access to Amazon Kinesis Data Firehose and Amazon Kinesis Data Analytics. For real-time dashboards, generate alerts, implement dynamic pricing and advertising, and implement sophisticated data analytics and machine learning algorithms. 
+### DynamoDB Streams and AWS Lambda triggers
+create triggers in Lambda to react to data modifications in DynamoDB tables. 
