@@ -1,3 +1,4 @@
+Amazon DynamoDB is a fully managed NoSQL database service that provides fast and predictable performance with seamless scalability
 ## Scan 
 The Scan operation examines every item for the requested values, it is slow 
 ### minimize the impact of a scan 
