@@ -16,3 +16,8 @@ Kinesis Data Streams gives you access to Amazon Kinesis Data Firehose and Amazon
 create triggers in Lambda to react to data modifications in DynamoDB tables. 
 ## DAX
 In-memory acceleration with DynamoDB Accelerator (DAX)
+## Transactions
+### TransactWriteItems API
+TransactWriteItems is a synchronous and idempotent write operation that groups up to 100 write actions in a single all-or-nothing operation. 
+### TransactGetItems API
+TransactGetItems is a synchronous read operation that groups up to 100 Get actions together. 
