@@ -18,5 +18,6 @@ Tasks are placed evenly based on the specified value.
 containerPort is the port that the container exposes.  
 hostPort is the port you want to map it to on the host.Set 0 and it will dynamically assign available port to you  
 ## pass environment variables
+Environment variables are advanced container definition.  
 1. Individually using the environment container definition parameter. This maps to the --env option to docker run.
 2. In bulk, using the environmentFiles container definition parameter to list one or more files that contain the environment variables. The file must be hosted in Amazon S3. This maps to the --env-file option to docker run  
