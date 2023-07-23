@@ -12,3 +12,6 @@ Tasks are placed evenly based on the specified value.
 ## launch types
 1. EC2 launch type -- large workloads that must be price optimized.  
 2. Fargate launch type -- no need for provisioning and managing the underlying infrastructure.  
+## port mapping
+containerPort is the port that the container exposes.  
+hostPort is the port you want to map it to on the host.Set 0 and it will dynamically assign available port to you  
