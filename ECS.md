@@ -1,6 +1,8 @@
 Amazon Elastic Container Service (Amazon ECS) is a fully managed container orchestration service that helps you easily deploy, manage, and scale containerized applications
 ## Task Definitin
 A task definition is a blueprint for your application. It is a text file in JSON format that describes the parameters and one or more containers that form your application.
+### ContainerDefinition
+Container definitions are used in task definitions to describe the different containers that are launched as part of a task
 ## Task placement strategy
 A task placement strategy is an algorithm for selecting instances for task placement or tasks for termination. 
 ### binpack 
