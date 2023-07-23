@@ -3,9 +3,9 @@ Amazon Aurora (Aurora) is a fully managed relational database engine that's comp
 ### 1. cluster-level parameters
 Apply for the whole cluster
 ### 2. instance-level parameters
-Apply to a specific DB instance in the cluster 
-max_connections = the total connection limit 
-max_user_connections = the per user limit 
+Apply to a specific DB instance in the cluster. 
+max_connections = the total connection limit.  
+max_user_connections = the per user limit. 
 ## Read scaling
 1. An Aurora DB cluster with replication has one primary DB instance and up to 15 Aurora Replicas 
 2. You can replicate data across multiple Regions by using an Aurora global databas, or create an Aurora read replica of an Aurora MySQL DB cluster in a different AWS Region, by using MySQL binary log (binlog) replication 
