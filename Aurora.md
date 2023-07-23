@@ -3,7 +3,7 @@ Amazon Aurora (Aurora) is a fully managed relational database engine that's comp
 ### 1. cluster-level parameters
 Apply for the whole cluster
 ### 2. instance-level parameters
-Apply to a specific DB instance in the cluster.
+Apply to a specific DB instance in the cluster.   
 max_connections = the total connection limit.  
 max_user_connections = the per user limit. 
 ## Read scaling
