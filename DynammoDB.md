@@ -14,3 +14,5 @@ Can also use parellel scan when
 Kinesis Data Streams gives you access to Amazon Kinesis Data Firehose and Amazon Kinesis Data Analytics. For real-time dashboards, generate alerts, implement dynamic pricing and advertising, and implement sophisticated data analytics and machine learning algorithms. 
 ### DynamoDB Streams and AWS Lambda triggers
 create triggers in Lambda to react to data modifications in DynamoDB tables. 
+## DAX
+In-memory acceleration with DynamoDB Accelerator (DAX)
